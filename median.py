@@ -10,7 +10,7 @@ def findMedian(numbers):
 		return m
 	else:
 		m1 = sorted_list[math.floor((len(sorted_list)/2)) - 1]
-		m2 = sorted_list[math.ceil((len(sorted_list)/2)) - 1]
+		m2 = sorted_list[math.ceil((len(sorted_list)/2))]
 		return (m1 + m2) / 2
 
 while True:
